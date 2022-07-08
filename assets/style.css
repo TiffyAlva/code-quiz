@@ -1,0 +1,15 @@
+#wrapper {
+    position: absolute;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: auto;
+    width: 550px;
+    left: 20%;
+    top: 20%;
+}
+
+#timer {
+    background-color: red;
+    font-size: 20px;
+    color: white;
+}
