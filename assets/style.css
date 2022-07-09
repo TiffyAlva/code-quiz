@@ -1,15 +1,84 @@
+
+#viewscores {
+    font-size: large;
+    color: red;
+}
+
+
 #wrapper {
     position: absolute;
-    border: 1px solid red;
-    border-radius: 10px;
     height: auto;
     width: 550px;
     left: 20%;
     top: 20%;
+    border: 5px solid red;
+    border line: 10px;
+}
+    
+#timer{
+    
+}    
+   
+#start {
+    background-color: lightblue;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: solid black;
+    text-align: center;
+    padding: 2px 5px;
+    margin-left: auto;
+    cursor: pointer;
+
 }
 
-#timer {
-    background-color: red;
-    font-size: 20px;
-    color: white;
+#start:hover {
+    background-color: yellow;
 }
+
+
+#questions {
+    /* padding: 10px; */
+    margin: 10px
+}
+
+#return {
+    background-color: lightblue;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: solid black;
+    text-align: center;
+    padding: 2px 5px;
+    margin-left: auto;
+    cursor: pointer;
+    
+    
+}
+
+#return:hover {
+    background-color: yellow;
+
+}
+
+#clear {
+    background-color: lightblue;
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: solid black;
+    text-align: center;
+    padding: 2px 5px;
+    margin-left: auto; 
+    cursor: pointer;
+}
+
+#clear:hover {
+    background-color: yellow;
+}
+   
+
+#display {
+    display: none;
+}
+

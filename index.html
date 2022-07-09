@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
     <title>Code Quiz</title>
+
 </head>
 <body>
-    <!--High scores link should be here-->
-    <a href="ADD.html">View High Scores</a>
+    <!--High scores link-->
+    <a id="viewscores" href="./highscores.html">View High Scores</a>
 
     <!--Wrapper-->
     <div id="wrapper">
@@ -19,15 +22,24 @@
         <!--Quiz-->
         <div id="questions">
             <h1>Coding Quiz Challenge</h1>
-            <p>Answer the following code-related questions within the time limit. Keep in mind that incorrect answers will <strong>penalize</strong> your score/time by ten seconds!</p> <!--Add more words-->
+            <p>Answer the following code-related questions within the time limit. <strong>Keep in mind that incorrect answers will penalize your score/time by ten seconds!</strong></p> 
         
         <!--Buttons-->
-        <button id="Start">Start Quiz!</button>
+        <button id="start">Start Quiz!</button>
         </div>
-    
-    </div>
+        
+        <div id="display"> 
+            <h2 id="questiontext">Question 1</h2>
+            <button id="choice1">Choice 1</button>
+            <button id="choice2">Choice 2</button>
+            <button id="choice3">Choice 3</button>
+            <button id="choice4">Choice 4</button>
+            
+        </div>    
 
-    <script src="ADD.js"></script>
+    </div>
+<!--JavaScript link-->
+    <script src="questions.js"></script>
     
 </body>
 </html>
