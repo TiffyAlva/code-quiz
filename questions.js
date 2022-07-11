@@ -55,6 +55,9 @@ var wrapper = document.querySelector("#wrapper");
 var startBtn = document.querySelector("#start");
 
 var qNum = 0;
+var time = 75;
+timer.textContent = time
+
 
 startBtn.addEventListener("click", startQuiz)
 
@@ -64,6 +67,15 @@ function startQuiz (){
 
     var questionsDiv = document.querySelector("#questions")
     questionsDiv.style.display = "none"
+
+    var timerInterval= setInterval(function() { 
+        time = time -1 
+        timer.textContent = time 
+        if (time == 0 ){
+        clearInterval(timerInterval)
+        }
+        console.log(time);
+     }, 1000);
 
     showQuestion()
 }
