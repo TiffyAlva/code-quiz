@@ -7,3 +7,8 @@ var returntoFrontPage = document.querySelector("#return");
 returntoFrontPage.addEventListener("click", function () {
     window.location.replace("./index.html");
 });
+
+
+// load what you have in your localStorage
+// using localStorage.getItem()
+// 

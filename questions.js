@@ -54,6 +54,8 @@ var timer = document.querySelector("#timer");
 var wrapper = document.querySelector("#wrapper");
 var startBtn = document.querySelector("#start");
 
+var timerInterval;
+
 var qNum = 0;
 var time = 75;
 timer.textContent = time
@@ -68,7 +70,7 @@ function startQuiz (){
     var questionsDiv = document.querySelector("#questions")
     questionsDiv.style.display = "none"
 
-    var timerInterval= setInterval(function() { 
+    timerInterval= setInterval(function() { 
         time = time -1 
         timer.textContent = time 
         if (time == 0 ){
@@ -104,20 +106,54 @@ function showQuestion (){
 }
 
 
-function clickAnswer () {
+function clickAnswer (e) {
     // if-else statement to check if what they clicked is the correct answer
-
+    var selectedAnswer = (e.target.textContent)
+    var correctAnswer = (questions [qNum].answer)
+    if (selectedAnswer == correctAnswer){
+        alert ("Correct!")
+    } else {
+        alert ("Incorrect!")
+        time = time -10
+    }
     // change what question number should be displayed
     // add +1 to the current value of qNum
     qNum++;
 
-    // call showQuestion again
-    showQuestion()
+    if (qNum < questions.length -1){
+       // call showQuestion again
+    showQuestion()  
+    } else {
+    endingQuiz ()
+    }
+   
+   
+   
+   
+    
 }
 
+function endingQuiz (){
+    clearInterval(timerInterval);
 
-// function for the time
-// setInterval -> lookup
+    var initialDiv = document.querySelector("#initialForm")
+    initialDiv.style.display = "block"
 
+    var displayDiv = document.querySelector("#display")
+    displayDiv.style.display = "none"   /*hidden*/
+}
+// function for the time done
+// setInterval -> lookup done
 
+var submitBtn = document.querySelector("#submitBtn");
+var initials = document.querySelector("#initials");
 
+submitBtn.addEventListener("click", function() {
+
+    // get the value of the initials
+    // get the score --> time left remaining
+
+    // save those two values in your localstorage
+    // using localStorage.setItem()
+
+})
