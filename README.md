@@ -1,5 +1,5 @@
 # Coding-Quiz
-### Deployed Link: https://github.com/TiffyAlva/code-quiz.git
+### Deployed Link: https://tiffyalva.github.io/code-quiz/
 
 ## Module 4 challenge
 
