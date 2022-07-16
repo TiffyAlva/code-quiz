@@ -11,4 +11,11 @@ returntoFrontPage.addEventListener("click", function () {
 
 // load what you have in your localStorage
 // using localStorage.getItem()
-// 
+
+// Event listener to clear scores 
+clear.addEventListener("click", function () {
+    localStorage.clear();
+    location.reload();
+});
+
+

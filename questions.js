@@ -142,18 +142,40 @@ function endingQuiz (){
     var displayDiv = document.querySelector("#display")
     displayDiv.style.display = "none"   /*hidden*/
 }
-// function for the time done
-// setInterval -> lookup done
+
 
 var submitBtn = document.querySelector("#submitBtn");
 var initials = document.querySelector("#initials");
 
 submitBtn.addEventListener("click", function() {
 
-    // get the value of the initials
-    // get the score --> time left remaining
+//*** Learning assistant assisted me with pseudo coding set up 7/16 (localStorage)
 
-    // save those two values in your localstorage
-    // using localStorage.setItem()
+//Get the value of your initialForm (grab the input) from HTML
 
+// //conditional statement to check that input contains data
+// if (/*if input is !== "" ("" means empty string aka no entry) */){
+
+// }
+
+//get save scores from localStorage or if not exist, set to empty array 
+        
+//here create a variable for high scores
+
+        //here create a variable for new scores
+
+        //save localStorage
+
+        //redirect high scores page(highscores.html)
+
+        
+
+
+
+    
+    
+    
+   
 })
+
+
