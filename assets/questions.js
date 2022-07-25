@@ -19,7 +19,7 @@
 //Answer: console.log
 
 
-// questions[3].answer
+// array / questions[3].answer
 var questions = [
     {
         question: "Commonly used data types DO NOT include:",
