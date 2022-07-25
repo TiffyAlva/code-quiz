@@ -10,16 +10,16 @@
 
 
 ### Start Quiz
-![](./StarQuizScreenshot.jpg)
+![](./assets/images/StarQuizScreenshot.jpg)
 
 ### Incorrect
-![](./IncorrectScreenshot.jpg)
+![](./assets/images/IncorrectScreenshot.jpg)
 
 ### Correct
-![](./CorrectScreenshot.jpg)
+![](./assets/images/CorrectScreenshot.jpg)
 
 ### End Game with Initial Form
-![](./EndGameScreenshot.jpg)
+![](./assets/images/EndGameScreenshot.jpg)
 
 ### High Scores
-![](./HighScoreScreenshot.jpg)
+![](./assets/images/HighScoreScreenshot.jpg)
