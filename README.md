@@ -1,7 +1,6 @@
 # Coding-Quiz
 ### Deployed Link: https://tiffyalva.github.io/code-quiz/ 
 
-## Module 4 challenge
 
 
 - This is a quiz project, questioning about coding. 
